@@ -13,14 +13,14 @@ pipeline {
 
     stage ("Create build output") {
         // Make the output directory.
-        bat 'wmic computersystem get name'
-        bat "mkdir strangeoutputdirname"
+        //bat 'wmic computersystem get name'
+        //bat "mkdir strangeoutputdirname"
 
     }
     
     stage ("Archive build output") {
         // Make the output directory.
-        bat "mkdir anotherstrangename"
+        //bat "mkdir anotherstrangename"
 
     }
 
