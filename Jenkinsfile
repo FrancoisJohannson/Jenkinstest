@@ -2,13 +2,14 @@
 node {
     stage ("Create build output") {
         // Make the output directory.
-        sh "mkdir strangeoutputdirname"
+        bat 'wmic computersystem get name'
+        bat "mkdir strangeoutputdirname"
 
     }
     
     stage ("Archive build output") {
         // Make the output directory.
-        sh "mkdir anotherstrangename"
+        bat "mkdir anotherstrangename"
 
     }
     
