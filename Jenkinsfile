@@ -1,5 +1,5 @@
 // This shows a simple example of how to archive the build output artifacts.
-node {
+//node {
 
 pipeline {
     agent { label 'master' }
@@ -30,4 +30,4 @@ pipeline {
     }
 }    
     
-}
+//}
