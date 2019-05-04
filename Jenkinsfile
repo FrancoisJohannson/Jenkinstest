@@ -12,6 +12,11 @@ pipeline {
         }
 
     stage ("Create build output") {
+
+           steps {
+                echo "Hello World2!"
+            }
+
         // Make the output directory.
         //bat 'wmic computersystem get name'
         //bat "mkdir strangeoutputdirname"
@@ -19,6 +24,11 @@ pipeline {
     }
     
     stage ("Archive build output") {
+
+           steps {
+                echo "Hello World3!"
+            }
+
         // Make the output directory.
         //bat "mkdir anotherstrangename"
 
