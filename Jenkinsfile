@@ -9,7 +9,7 @@ pipeline {
                 echo "Hello World!"
             }
 
-
+        }
 
     stage ("Create build output") {
         // Make the output directory.
@@ -26,7 +26,7 @@ pipeline {
 
 
 
-        }
+        
     }
 }    
     
