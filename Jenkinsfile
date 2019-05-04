@@ -7,7 +7,10 @@ pipeline {
         stage('build') {
             steps {
                 echo "Hello World!"
+
+                // Rnning Windows cmd with bat
                 bat "dir"
+                bat "mvn"
             }
 
         }
@@ -18,9 +21,6 @@ pipeline {
                 echo "Hello World2!"
             }
 
-        // Make the output directory.
-        //bat 'wmic computersystem get name'
-        //bat "mkdir strangeoutputdirname"
 
     }
     
@@ -29,9 +29,6 @@ pipeline {
            steps {
                 echo "Hello World3!"
             }
-
-        // Make the output directory.
-        //bat "mkdir anotherstrangename"
 
     }
 
